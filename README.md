@@ -1,7 +1,4 @@
-# Post Process Volume for Touchdesigner
-
-
-
+![Cover](https://github.com/user-attachments/assets/7a27ac0c-08d0-43d0-bbe0-0f810bd59b6f)
 
 # 🎨 Post Process Volume for TouchDesigner
 
@@ -10,28 +7,18 @@ These effects can be either the built-in cinematic presets included in the compo
 
 The component is inspired by [Unreal Engine](https://www.unrealengine.com/en-US)’s Post Process Volume, bringing a similar workflow into Touchdesigner.✨  
 
-![Demo](demo.gif)
+- Developed by [TORMOZGH](www.instagram.com/tormozgh)
+
+- Version: 0.64 Beta (Released on Sep 2025)
+
+
 
 ---
 
-## 📑 Table of Contents
-- [✨ Features](#-features)
-- [🛠 Installation](#-installation)
-- [🎮 Usage](#-usage)
-- [📸 Screenshots](#-screenshots)
-- [📜 License](#-license)
-
----
-
-## ✨ Features
+## ✨ Usage
 - 🎛️ انتخاب محدوده مشخص در صحنه سه‌بعدی  
 - 🎥 پشتیبانی از ورودی زنده (Live Input)  
 - ⚡ پردازش سریع و بهینه برای اجرای ریل‌تایم  
 - 🖼️ قابل استفاده برای پروژه‌های AV و اینستالیشن  
 
 ---
-
-## 🛠 Installation
-```bash
-git clone https://github.com/yourusername/post-process-volume.git
-cd post-process-volume

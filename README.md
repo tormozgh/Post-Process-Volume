@@ -1,4 +1,4 @@
-![Cover](https://github.com/user-attachments/assets/7a27ac0c-08d0-43d0-bbe0-0f810bd59b6f)
+![Cover](Cover.jpg)
 
 # 🎨 Post Process Volume for TouchDesigner
 

@@ -1,4 +1,4 @@
-![Cover](Cover.jpg)
+![Cover](Images/Cover.jpg)
 
 # 🎨 Post Process Volume for TouchDesigner
 
@@ -36,10 +36,17 @@ The component is inspired by [Unreal Engine](https://www.unrealengine.com/en-US)
 
 4. **Add the Component to Your Own Project**  
    - Drop the `.tox` file into your TouchDesigner project.  
+   
+5. **Key Parameters in the Input Tab**
    - Go to the first tab of the component parameters, called **Input**. Here you’ll configure the initial setup for your 3D environment.  
    - This step essentially connects your 3D scene to the component.  
+   
 
-   **Key Parameters in the Input Tab**  
+<p align="center">
+  <img src="Images/Input.png" alt="ّInput" />
+</p>
+
+
    - **GEO for World Position**:  
      The component relies heavily on *World Position* data. You must assign your scene’s main geometry here.  
      - If your geometry has an input, connect that input to the component’s SOP input as well.  
@@ -47,12 +54,37 @@ The component is inspired by [Unreal Engine](https://www.unrealengine.com/en-US)
    - **Replicate**:  
      A button to re-replicate the World Position setup if needed.  
 
----
-
-5. **Render TOP Setup**  
-   In this section you’ll configure the rendering pipeline for your 3D scene:  
+   - **Render TOP Setup**  
+     In this section you’ll configure the rendering pipeline for your 3D scene:  
    - **Res**: Overall resolution of the component (this will be the resolution of your 3D environment).  
    - **Geometry**: The main geometry of your scene.  
    - **Camera**: The primary camera for your scene.  
      > ⚠️ Make sure your camera component is named **`cam1`**.  
-   - **Light**: The main light source for your 3D scene.  
+   - **Light**: The main light source for your 3D scene.
+
+6. **Volume Tab**  
+   In the **Volume** tab you define the 3D region where your effect will be applied — this is your *volume*.  
+   You can either use the built-in default shapes or bring in your own custom geometry.
+
+<p align="center">
+  <img src="Images/Input.png" alt="ّInput" />
+</p>
+
+   **Key Parameters in the Volume Tab**  
+   - **Unbound**:  
+     Apply the effect to the entire 3D environment.  
+   - **Custom SOP**:  
+     Assign your own SOP as the volume for the component.  
+   - **Custom SOP or Basic Shapes**:  
+     Switch between using a default primitive shape or your custom SOP.  
+   - **Shapes**:  
+     Choose one of the default shapes: **Box**, **Sphere**, or **Torus**.  
+     > 🔧 Tip: By diving into the Post Process component, you can manually edit these shapes under the *Volume* section.  
+
+   **Transform Controls**  
+   - **T (Translate)**: Move the volume.  
+   - **R (Rotate)**: Rotate the volume.  
+   - **S (Scale)**: Scale the volume along individual axes.  
+   - **Uniform Scale**: Scale the volume uniformly on all axes.  
+   - **Show Bounding Volume**: Display the bounding box of the defined volume.  
+

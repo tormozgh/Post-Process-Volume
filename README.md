@@ -130,13 +130,30 @@ The component is inspired by [Unreal Engine](https://www.unrealengine.com/en-US)
    - **Blend Mode**:  
      Choose from standard blend modes such as *Normal*, *Add*, *Multiply*, *Overlay*, and *Screen*.  
    - **Effect Strength**:  
-     Controls the intensity of the custom effect.  
+     Controls the intensity of the custom effect.
+
+   **Composition**  
+   Choose whether to use the **default cinematic effects**, **custom effects**, or a **combination of both**.  
+
+   - **Select Effect Mode**:  
+     Pick one of the following options:  
+     - *Cinematic*: Use the built-in cinematic effects.  
+     - *Custom*: Use your custom effect.  
+     - *Both*: Combine both cinematic and custom effects.  
+   - **Both Blend Mode**:  
+     Choose the blend mode applied when **Both** mode is selected.  
+
    - **Master Strength**:  
      Adjusts the overall strength of all active effects combined.  
 ##
 
 8. **Lens Flares Tab**  
-   In this tab you can configure a custom-designed lens flare effect.  
+   In this tab you can configure a custom-designed lens flare effect.
+
+<p align="center">
+  <img src="Images/Input.png" alt="ّInput" />
+</p>
+
 
    > ⚠️ Note: This effect applies to the **entire scene**, not just the defined volume. 
  
@@ -166,4 +183,23 @@ The component is inspired by [Unreal Engine](https://www.unrealengine.com/en-US)
    - **Border**: Thickness of the shape’s outline.  
    - **Rotate**: Rotates the shape.  
    - **Translate**: Moves the shape position.  
+##
 
+9. **Color Correction Tab**  
+   The **Color Correction** tab lets you fine-tune the final look of your scene by adjusting basic color parameters.  
+   Even with these simple controls, you can significantly improve the overall quality of the output.  
+
+<p align="center">
+  <img src="Images/Input.png" alt="ّInput" />
+</p>
+
+
+   > ℹ️ Note: Color correction affects only the defined **volume**, not the entire scene.  
+
+   **Color Correction Controls**  
+   - **Temperature**: Adjust the warmth or coolness of the colors.  
+   - **Tint Color & Strength**: Choose a tint color and control its intensity.  
+   - **Saturation**: Increase or decrease color saturation.  
+   - **Contrast**: Control the contrast levels.  
+   - **Gamma**: Adjust midtone brightness using gamma correction.  
+   - **Gain**: Control the overall brightness/gain of the image.  

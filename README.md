@@ -1,6 +1,6 @@
 ![Cover](Images/Cover.jpg)
 
-## Post Process Volume for TouchDesigner
+## ✨ Post Process Volume for TouchDesigner
 
 A custom TouchDesigner tool that allows you to apply visual effects to a defined region of your 3D environment.
 
@@ -9,7 +9,7 @@ You can use either the built-in cinematic effects or your own custom effects.
 Inspired by [Unreal Engine](https://www.unrealengine.com/en-US)’s Post Process Volume, this component brings a similar workflow into TouchDesigner.✨  
 
 - Developed by [TORMOZGH](www.instagram.com/tormozgh)  
-- Version: 0.64 Beta (Released Sep 2025)
+- Version: 0.83 Beta (Released Sep 2025)
 
 ---
 
@@ -21,7 +21,7 @@ Get the latest release from the [Releases](../../releases) section.
 > ⚠️ This component is currently in **Beta** and works with **TouchDesigner 2022.24200 or newer**.  
 Older versions are not recommended. If you try it on an older version and it works, please let me know! 🙏  
 
----
+##
 
 ### 2. What’s Inside
 The release package contains:  
@@ -29,19 +29,18 @@ The release package contains:
 - **PostProcessVolume_Sample_Project** (`.toe`)  
 - **PostProcessVolume** (`.tox`)  
 
----
+##
 
 ### 3. Explore the Sample Project
 Open the `.toe` file to see the component in action.  
 The sample project demonstrates all features and shows how to connect the component to your scene.  
 
----
+##
 
 ### 4. Add the Component to Your Own Project
 Drag the `.tox` file into your TouchDesigner project.  
 
 ---
-
 ## 🛠 Input Tab
 This tab sets up the initial connection between your 3D scene and the component.  
 
@@ -64,7 +63,6 @@ Configure the rendering pipeline for your scene:
 - **Light**: Main scene light.  
 
 ---
-
 ## 🌐 Volume Tab
 Define the 3D region (volume) where effects are applied.  
 
@@ -86,7 +84,6 @@ Define the 3D region (volume) where effects are applied.
 - **Show Bounding Volume**: Display the volume bounds.  
 
 ---
-
 ## 🎬 Effects Tab
 Apply and customize effects within your volume.  
 
@@ -117,7 +114,6 @@ Choose which effects to apply:
 - **Master Strength**: Controls the overall intensity of all active effects.  
 
 ---
-
 ## 💥 Lens Flares Tab
 Control a custom-designed lens flare effect.  
 
@@ -154,7 +150,6 @@ Control a custom-designed lens flare effect.
 - Translate: Move shape  
 
 ---
-
 ## 🎨 Color Correction Tab
 Enhance the final look by adjusting color parameters.  
 
@@ -172,3 +167,55 @@ Enhance the final look by adjusting color parameters.
 - Gamma: Midtone brightness  
 - Gain: Overall brightness  
 
+---
+## 💡 Tips & Best Practices
+
+### 1. Performance Optimization
+- Keep your geometry as low-poly as possible to reduce computation.
+- Avoid using very high-resolution TOPs for custom effects unless necessary.  
+- Use Unbound only when needed; limiting the volume reduces GPU load.  
+
+### 2. Live Shows / Real-Time Playback
+- For live performance, consider lowering Resolution or Effect Strength to maintain high FPS.  
+- Monitor GPU usage to prevent frame drops.  
+
+### 3. Effect Management
+- Use *Composition* to combine cinematic and custom effects efficiently.  
+- Adjust Master Strength carefully to avoid overly strong effects that may wash out the scene. 
+- For lens flares, tweak Threshold and Blur Size for better visibility without overwhelming the scene.
+
+### 4. Color Correction Tips
+- Adjust *Temperature* and *Tint* gradually.  
+- Use Gamma to fine-tune midtones without affecting shadows or highlights too drastically.  
+- Test color correction under final output conditions (LED wall, projection, etc.) to see real impact.
+
+### 5. Troubleshooting
+- Ensure **cam1** is assigned correctly.  
+- Connect all SOPs/custom geometry properly.  
+
+---
+
+## 🤝 Get Involved & Support
+
+Do you have ideas to improve the component or want to add your own effects? I’d love to see your creativity in action!
+
+### Show Off Your Stuff
+- Post your creations with this component on social media.
+- Tag me [@TORMOZGH](https://www.instagram.com/tormozgh) so I can check them out!
+- Spread the love ❤️ share the component with friends or anyone who’d dig it.
+
+---
+### Help Me Keep Making Cool Stuff
+
+If you’re enjoying this project and wanna give it some extra love, here are a few fun ways 🐒 :
+
+- **👨🏼‍💻 Spread the word** → Share the component or my projects with friends, that alone means a lot.  
+- **🖼️ Collect my [NFT](https://objkt.com/users/tz1bawFMAm5eZMu4U9y8XWULuNVc1e5BQQvt)s** → Own a little piece of my art if that’s your vibe.  
+- **💸 Send a tiny bit of [crypto](0x21f4c579484827F1536dC02BBFAB80383929023c)** → Only if you’re feeling it, even the smallest support is super appreciated.  
+
+✨ Seriously, no pressure at all. Just hanging out, trying it out, or sharing your feedback already keeps me inspired!  
+
+---
+And finally, if you ever run into any issues or have questions, just shoot me an [email](morteza.ghahremanian@gmail.com) — I’ll be happy to help.
+
+Peace and Love 🐒 Tormozgh

@@ -1,6 +1,6 @@
 ![Cover](Images/Cover.jpg)
 
-# 🎨 Post Process Volume for TouchDesigner
+#Post Process Volume for TouchDesigner
 
 A custom TouchDesigner tool that allows you to apply visual effects to a defined region of your 3D environment.
 

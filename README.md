@@ -218,4 +218,7 @@ If you’re enjoying this project and wanna give it some extra love, here are a 
 ---
 And finally, if you ever run into any issues or have questions, just shoot me an [email](morteza.ghahremanian@gmail.com) — I’ll be happy to help.
 
+<small>And hey, if you ever run into any issues or have questions, just shoot me an email — I’ll be happy to help.</small>
+
+
 Peace and Love 🐒 Tormozgh

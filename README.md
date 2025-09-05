@@ -9,7 +9,7 @@ You can use either the built-in cinematic effects or your own custom effects.
 Inspired by [Unreal Engine](https://www.unrealengine.com/en-US)’s Post Process Volume, this component brings a similar workflow into TouchDesigner.✨  
 
 - Developed by [TORMOZGH](www.instagram.com/tormozgh)  
-- Version: 0.83 Beta (Released Sep 2025)
+- Version: 0.83 Beta (pre-Released Sep 2025)
 
 ---
 
